@@ -22,7 +22,7 @@
         },
         "DELETE_ENABLED": {
             "description": "delete app enabled, true/false",
-            "required": false,
+            "required": true,
             "value": "false"
         },
         "META_PATH": {
