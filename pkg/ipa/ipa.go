@@ -157,7 +157,7 @@ func iconSize(fileName string) (s int, err error) {
 		if len(arr) == 2 {
 			size, err = strconv.ParseFloat(arr[1], 32)
 		} else {
-			size = 160
+			size = 900
 		}
 	}
 	match, _ = regexp.MatchString(newIconRegular, fileName)
